@@ -35,15 +35,16 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
-
-<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <TableView fx:id="messageTable" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <columns>
-            <TableColumn fx:id="level" prefWidth="39.0" text="レベル" />
-            <TableColumn fx:id="userName" prefWidth="118.0" text="ユーザー名" />
-            <TableColumn fx:id="message" prefWidth="482.0" text="メッセージ" />
-         </columns>
-      </TableView>
-   </children>
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TableView fx:id="messageTable" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="level" prefWidth="39.0" text="レベル"/>
+                <TableColumn fx:id="userName" prefWidth="118.0" text="ユーザー名"/>
+                <TableColumn fx:id="message" prefWidth="482.0" text="メッセージ"/>
+            </columns>
+        </TableView>
+    </children>
 </AnchorPane>

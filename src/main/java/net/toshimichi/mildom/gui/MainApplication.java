@@ -3,11 +3,20 @@ package net.toshimichi.mildom.gui;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+import java.io.InputStream;
+
 public class MainApplication extends Application {
+
     @Override
     public void start(Stage primaryStage) throws Exception {
+        try (InputStream in = getClass().getClassLoader().getResourceAsStream("favicon.png")) {
+            if (in != null) {
+                primaryStage.getIcons().add(new Image(in));
+            }
+        }
 
         InitController controller = new InitController(primaryStage);
 
