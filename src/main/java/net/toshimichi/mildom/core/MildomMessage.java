@@ -1,4 +1,4 @@
-package net.toshimichi.mildom;
+package net.toshimichi.mildom.core;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -15,6 +15,10 @@ final public class MildomMessage {
 
     public int getLevel() {
         return level;
+    }
+
+    public String getMessage() {
+        return message;
     }
 
     @Override

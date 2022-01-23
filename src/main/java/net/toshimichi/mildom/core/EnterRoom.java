@@ -1,4 +1,4 @@
-package net.toshimichi.mildom;
+package net.toshimichi.mildom.core;
 
 final public class EnterRoom {
 

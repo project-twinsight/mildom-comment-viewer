@@ -1,4 +1,4 @@
-package net.toshimichi.mildom;
+package net.toshimichi.mildom.core;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
