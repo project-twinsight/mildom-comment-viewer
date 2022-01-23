@@ -19,6 +19,11 @@ public class MainApplication extends Application {
         primaryStage.show();
     }
 
+    @Override
+    public void stop() throws Exception {
+        System.exit(0);
+    }
+
     public static void main(String[] args) {
         MainApplication.launch(args);
     }
